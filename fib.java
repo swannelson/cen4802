@@ -1,3 +1,6 @@
+/*
+*Swan Nelson
+ */
 import java.util.Scanner;
 /*
 *Assignment 2: Calculating the Fibonacci method using the recursive formula.
