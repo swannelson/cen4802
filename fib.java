@@ -1,18 +1,26 @@
 import java.util.Scanner;
-
+/*
+*Assignment 2: Calculating the Fibonacci method using the recursive formula.
+* */
 public class fib {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("What term of the Fibonacci sequence to calculate to?");
-        //Insert the number for the scanner to calculate the Recursive formula
+        /*
+        *Insert the number for the scanner to calculate the Recursive formula
+        * */
         int n = scan.nextInt();
         RecursiveFib fn = new RecursiveFib();
-        //Calculate Recursive in the out print
+        /*
+        *Calculate Recursive in the out print
+        * */
         System.out.println("The " + n + " term of the Fibonacci sequence is " + fn.calculate(n));
     }
 
 }
-//the recursive formula of Fibonacci
+/*
+*The recursive formula of Fibonacci
+*/
 class RecursiveFib {
     public int calculate(int n) {
         if (n == 0) {
